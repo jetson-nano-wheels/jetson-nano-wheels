@@ -2,11 +2,17 @@
 
 Unofficial wheels for some machine-learning Python libraries, for the Nvidia Jetson Nano.
 
+If you already know what the Jetson Nano and Python wheels are, you can [skip to the downloads](#downloads)
+
 ## What?
 
-The [Nvidia Jetson Nano](https://developer.nvidia.com/embedded/jetson-nano-developer-kit) is a small computer with a [GPU](https://en.wikipedia.org/wiki/Graphics_processing_unit) that is particularly suited to developing and running machine learning (ML), neural networks, and other artificial intelligence (AI) applications. It comes with [Jetpack](https://developer.nvidia.com/embedded/jetpack), a software developer kit (SDK) that is available on all [Nvidia Jetson products](https://developer.nvidia.com/embedded/develop/hardware). Jetpack includes the [Jetson Linux Driver Package](https://developer.nvidia.com/embedded/linux-tegra) (L4T) which provides fundamental software for the Jetson board including a booloader and Nvidia drivers, and an operating system based on the Linux operating system (kernel 4.9) and [Ubuntu 18.04](https://releases.ubuntu.com/18.04/). The Jetson Nano provides Nvidia's [Compute Unified Device Architecture](https://en.wikipedia.org/wiki/CUDA) (CUDA) which gives programmers a consistent way to produce code that runs rapidly and in parallel, by taking advantage of the GPU's capabilities.
+The [Nvidia Jetson Nano](https://developer.nvidia.com/embedded/jetson-nano-developer-kit) is a small computer with a [GPU](https://en.wikipedia.org/wiki/Graphics_processing_unit) that is particularly suited to developing and running machine learning (ML), neural networks, and other artificial intelligence (AI) applications.
 
-[Python](https://python.org) is a programming language that is very popular with ML/AI developers. There are many freely-available [Python software packages](https://pypi.org/) that are optimised for ML/AI development. The packages are distributed in a variety of formats, including "[wheels](https://realpython.com/python-wheels/)", which are a [ready-to-use ("built") form](https://packaging.python.org/glossary/#term-built-distribution) of packages that don't require [building](https://pypa-build.readthedocs.io/en/latest/). They contain code that can simply be moved to the correct location on the destination computer. This makes wheels faster to install (and often quicker to download) than other forms of Python packages including plain source code. Wheels also aim for more consistency, helping to ensure that a computer is in a predictable state after they are installed.
+The Nano comes with [Jetpack](https://developer.nvidia.com/embedded/jetpack), a software developer kit (SDK) that is available on all [Nvidia Jetson products](https://developer.nvidia.com/embedded/develop/hardware). Jetpack includes the [Jetson Linux Driver Package](https://developer.nvidia.com/embedded/linux-tegra) (L4T) which provides fundamental software for the Jetson board including a booloader and Nvidia drivers, and an operating system based on the Linux operating system (kernel 4.9) and [Ubuntu 18.04](https://releases.ubuntu.com/18.04/). The Jetson Nano provides Nvidia's [Compute Unified Device Architecture](https://en.wikipedia.org/wiki/CUDA) (CUDA) which gives programmers a consistent way to produce code that runs rapidly and in parallel, by taking advantage of the GPU's capabilities.
+
+[Python](https://python.org) is a programming language that is very popular with ML/AI developers.
+
+There are many freely-available [Python software packages](https://pypi.org/) that are optimised for ML/AI development. The packages are distributed in a variety of formats, including "[wheels](https://realpython.com/python-wheels/)", which are a [ready-to-use ("built") form](https://packaging.python.org/glossary/#term-built-distribution) of packages that don't require [building](https://pypa-build.readthedocs.io/en/latest/). They contain code that can simply be moved to the correct location on the destination computer. This makes wheels faster to install (and often quicker to download) than other forms of Python packages including plain source code. Wheels also aim for more consistency, helping to ensure that a computer is in a predictable state after they are installed.
 
 
 ## Why?
@@ -52,7 +58,7 @@ Further:
   - There is [a bug in numpy 1.19.5](https://github.com/numpy/numpy/issues/18131) which can be [worked around](https://forums.developer.nvidia.com/t/cupy-crashes-on-jetson-nano/169103/3), but I decided to stick to numpy 1.19.4 for now.
 
 
-## How to use
+## Downloads
 
 Visit the page for each project and follow the instructions there:
 
