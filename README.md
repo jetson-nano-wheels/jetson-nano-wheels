@@ -23,14 +23,12 @@ For my personal projects, the following combination works well, and is unlikely 
   - Python 3.6.9
   - numpy 1.19.4
   - pycuda 2021.1
-  - pyopencl 2021.2.8
+  - pytools 2021.2.8
   - scipy 1.5.4
 
 <!--
   - cusim
   - numba
-  - pycuda
-  - pyopencl
   - scikit-learn 0.24.2
   - textacy
 -->
@@ -50,7 +48,7 @@ But:
 
 Further:
 
-  - pycuda 2021.1 requires pyopencl 2021.2.8
+  - pycuda 2021.1 requires pytools 2021.2.8
   - There is [a bug in numpy 1.19.5](https://github.com/numpy/numpy/issues/18131) which can be [worked around](https://forums.developer.nvidia.com/t/cupy-crashes-on-jetson-nano/169103/3), but I decided to stick to numpy 1.19.4 for now.
 
 
@@ -58,10 +56,10 @@ Further:
 
 Visit the page for each project and follow the instructions there:
 
-  - <https://github.com/jetson-nano-wheels/python3.6-numpy-1.19.4>
-  - <https://github.com/jetson-nano-wheels/python3.6-pycuda-2021.1>
-  - <https://github.com/jetson-nano-wheels/python3.6-pyopencl-2021.2.8>
-  - <https://github.com/jetson-nano-wheels/python3.6-scipy-1.5.4>
+  - <https://github.com/jetson-nano-wheels/python3.6-numpy-1.19.4#readme>
+  - <https://github.com/jetson-nano-wheels/python3.6-pycuda-2021.1#readme>
+  - <https://github.com/jetson-nano-wheels/python3.6-pytools-2021.2.8#readme>
+  - <https://github.com/jetson-nano-wheels/python3.6-scipy-1.5.4#readme>
 
 
 ## Disclaimer
