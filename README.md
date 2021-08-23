@@ -26,8 +26,9 @@ The wheels in these projects are offered to save developers from this frustratio
 
 For my personal projects, the following combination works well, and is unlikely to change unless there are specific benefits for my work. I simply don't have the time to explore and maintain other combinations.
 
-  - Python 3.6.9
-  - numpy 1.19.4
+  - Python 3.6.x and/or Python 3.7.x
+  - numpy 1.19.4 (Python 3.6 only)
+  - numpy 1.20.3 (Python 3.7 only)
   - pycuda 2021.1
   - pytools 2021.2.8
   - scipy 1.5.4
@@ -66,6 +67,7 @@ Visit the page for each project and follow the instructions there:
   - [https://github.com/jetson-nano-wheels/python3.6-pycuda-2021.1](https://github.com/jetson-nano-wheels/python3.6-pycuda-2021.1#readme)
   - [https://github.com/jetson-nano-wheels/python3.6-pytools-2021.2.8](https://github.com/jetson-nano-wheels/python3.6-pytools-2021.2.8#readme)
   - [https://github.com/jetson-nano-wheels/python3.6-scipy-1.5.4](https://github.com/jetson-nano-wheels/python3.6-scipy-1.5.4#readme)
+  - [https://github.com/jetson-nano-wheels/python3.7-numpy-1.20.3](https://github.com/jetson-nano-wheels/python3.7-numpy-1.20.3#readme)
 
 
 ## Disclaimer
