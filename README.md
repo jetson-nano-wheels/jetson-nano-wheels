@@ -63,6 +63,7 @@ Further:
 
 Visit the page for each project and follow the instructions there:
 
+  - [https://github.com/jetson-nano-wheels/python3.6-blis-0.7.4](https://github.com/jetson-nano-wheels/python3.6-blis-0.7.4#readme)
   - [https://github.com/jetson-nano-wheels/python3.6-numpy-1.19.4](https://github.com/jetson-nano-wheels/python3.6-numpy-1.19.4#readme)
   - [https://github.com/jetson-nano-wheels/python3.6-pycuda-2021.1](https://github.com/jetson-nano-wheels/python3.6-pycuda-2021.1#readme)
   - [https://github.com/jetson-nano-wheels/python3.6-pytools-2021.2.8](https://github.com/jetson-nano-wheels/python3.6-pytools-2021.2.8#readme)
