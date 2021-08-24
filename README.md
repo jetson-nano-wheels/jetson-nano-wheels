@@ -80,4 +80,4 @@ This project is unofficial, and has nothing to do with Nvidia whatsoever.
 
 ## What's the logo?
 
-It's a diagram of a [dendrimer](https://en.wikipedia.org/wiki/Dendrimer), a polymer with a highly ordered, branching structure. also known as a _cascade molecule_. It seemed appropriate :smile:
+It's a diagram of a [dendrimer](https://en.wikipedia.org/wiki/Dendrimer), a polymer with a highly ordered, branching structure, also known as a _cascade molecule_. It seemed appropriate :smile:
