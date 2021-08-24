@@ -74,6 +74,7 @@ Visit the page for each project and follow the instructions there:
 
 Are awesome lists still a thing? 😎
 
+  - The [Jetson Zoo](https://elinux.org/Jetson_Zoo) by [@dusty-nv](https://github.com/dusty-nv). Plenty of wheels from Dustin, a developer at Nvidia.
   - Loads of torch wheels here: <https://github.com/KumaTea/pytorch-aarch64>
   - [@QEngineering](https://github.com/qengineering) provide wheels for [TensorFlow](https://github.com/Qengineering/TensorFlow-JetsonNano) (and some [community-built add-ons for TF](https://github.com/Qengineering/TensorFlow-Addons-Jetson-Nano)), [Torch](https://github.com/Qengineering/PyTorch-Jetson-Nano), and [Paddle](https://github.com/Qengineering/Paddle-Jetson-Nano). They also provide build instructions for other libraries including [OpenCV](https://github.com/Qengineering/Install-OpenCV-Jetson-Nano).
 
