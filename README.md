@@ -2,7 +2,7 @@
 
 Unofficial wheels for some machine-learning Python libraries, for the Nvidia Jetson Nano.
 
-If you already know what the Jetson Nano and Python wheels are, you can [skip to the downloads](#downloads)
+If you already know what the Jetson Nano and Python wheels are, you can [skip to the downloads](#downloads) or see my [_awesome list_ of similar projects](#awesome-list-of-similar-projects) below.
 
 ## What?
 
@@ -42,7 +42,7 @@ For my personal projects, the following combination works well, and is unlikely 
 
 ### Why this combination?
 
-The following was my experience on my Jetson running a fresh installation of Jetpack 4.6 with L4T 32.6.1. The following may not be definitive and I'm happy to be corrected.
+Basically, lots of trial and error. Here are some of the issues and inter-dependencies I encoutered. The following was my experience on my Jetson running a fresh installation of Jetpack 4.6 with L4T 32.6.1. My experience may not be definitive and I'm happy to be corrected.
 
   - pycuda 2021.1 only works with Python 3.6, not with Python 3.7 or 3.8.
   - Python 3.6 restricts scipy to maximum version 1.5.4.
@@ -66,10 +66,16 @@ Visit the page for each project and follow the instructions there:
   - [https://github.com/jetson-nano-wheels/python3.6-blis-0.7.4](https://github.com/jetson-nano-wheels/python3.6-blis-0.7.4#readme)
   - [https://github.com/jetson-nano-wheels/python3.6-numpy-1.19.4](https://github.com/jetson-nano-wheels/python3.6-numpy-1.19.4#readme)
   - [https://github.com/jetson-nano-wheels/python3.6-pycuda-2021.1](https://github.com/jetson-nano-wheels/python3.6-pycuda-2021.1#readme)
-  - [https://github.com/jetson-nano-wheels/python3.6-pytools-2021.2.8](https://github.com/jetson-nano-wheels/python3.6-pytools-2021.2.8#readme)
   - [https://github.com/jetson-nano-wheels/python3.6-scipy-1.5.4](https://github.com/jetson-nano-wheels/python3.6-scipy-1.5.4#readme)
   - [https://github.com/jetson-nano-wheels/python3.7-numpy-1.20.3](https://github.com/jetson-nano-wheels/python3.7-numpy-1.20.3#readme)
 
+
+## Awesome list of similar projects
+
+Are awesome lists still a thing? 😎
+
+  - Loads of torch wheels here: <https://github.com/KumaTea/pytorch-aarch64>
+  - [@QEngineering](https://github.com/qengineering) provide wheels for [TensorFlow](https://github.com/Qengineering/TensorFlow-JetsonNano) (and some [community-built add-ons for TF](https://github.com/Qengineering/TensorFlow-Addons-Jetson-Nano)), [Torch](https://github.com/Qengineering/PyTorch-Jetson-Nano), and [Paddle](https://github.com/Qengineering/Paddle-Jetson-Nano). They also provide build instructions for other libraries including [OpenCV](https://github.com/Qengineering/Install-OpenCV-Jetson-Nano).
 
 ## Disclaimer
 
