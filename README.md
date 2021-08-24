@@ -76,3 +76,8 @@ Visit the page for each project and follow the instructions there:
 As with many other open-source projects, everything in the [Jetson Nano Wheels](https://github.com/jetson-nano-wheels/) projects are offered "as-is", without warranty of any kind, express or implied. All contributors disclaim any liability for any direct, indirect, incidental, consequential or other damages however caused, arising in any way from, or in connection with, the use of the software or any other dealings in the software. See the [LICENSE](LICENSE) file in each project for further details.
 
 This project is unofficial, and has nothing to do with Nvidia whatsoever.
+
+
+## What's the logo?
+
+It's a diagram of a [dendrimer](https://en.wikipedia.org/wiki/Dendrimer), a polymer with a highly ordered, branching structure. also known as a _cascade molecule_. It seemed appropriate :smile:
